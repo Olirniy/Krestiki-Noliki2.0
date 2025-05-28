@@ -250,7 +250,7 @@ class TicTacToe:
                         return
                     self.buttons[i][j]['text'] = ""
 
-        # Затем проверяем, может ли игрок выиграть следующим ходом
+        # Затем проверяем, может ли игрок выиграть следующим ходом (блокировка игрока)
         for i in range(3):
             for j in range(3):
                 if self.buttons[i][j]['text'] == "":
@@ -389,4 +389,3 @@ if __name__ == "__main__":
     window = tk.Tk()
     game = TicTacToe(window)
     window.mainloop()
-
