@@ -107,8 +107,8 @@ def computer_move(self):
 
 1. Клонируйте репозиторий:
 ```bash
-git clone https://github.com/yourusername/tic-tac-toe.git
-cd tic-tac-toe
+git clone https://github.com/Olirniy/Krestiki-Noliki2.0
+cd Krestiki-Noliki2.0
 ```
 
 2. Запустите игру:
@@ -157,6 +157,6 @@ MIT License. См. файл [LICENSE](LICENSE).
 - Полноценную документацию
 - Расширяемость кода
 
-Автор: [Ваше имя]  
+Автор: [Olirniy]  
 Дата: 2025-05-28
 
